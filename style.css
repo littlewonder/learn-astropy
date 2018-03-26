@@ -1,2 +1,121 @@
+@import url(reset.css);
+/* line 11, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+::-webkit-input-placeholder {
+  opacity: 0.5;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #4D4D4D; }
+
+/* line 14, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+:-moz-placeholder {
+  opacity: 0.5;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #4D4D4D; }
+
+/* line 17, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+::-moz-placeholder {
+  opacity: 0.5;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #4D4D4D; }
+
+/* line 20, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+:-ms-input-placeholder {
+  opacity: 0.5;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #4D4D4D; }
+
+/* line 32, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+nav {
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  /* line 37, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+  nav div {
+    display: flex;
+    flex-direction: row; }
+    /* line 40, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+    nav div a {
+      margin-left: 3em;
+      font-family: 'Open Sans';
+      font-weight: 600;
+      font-size: 1em;
+      color: #4D4D4D;
+      text-decoration: none;
+      transition-timing-function: ease-in-out;
+      transition-duration: 0.25s;
+      transition-property: all; }
+      /* line 48, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+      nav div a:hover {
+        color: #FF641D; }
+
+/* line 55, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+header {
+  text-align: center;
+  padding: 5em;
+  background: url(res/search-background.png); }
+  /* line 59, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+  header h1 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 2em;
+    color: #fff; }
+  /* line 65, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+  header input[type="text"] {
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(175, 175, 175, 0.35);
+    border-radius: 2px;
+    padding: 1.5em 2.5em;
+    border: none;
+    margin-top: 4em;
+    width: 25%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    transition-property: all; }
+    /* line 74, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+    header input[type="text"]:focus {
+      outline: none;
+      transform: scale(1.05); }
+
+/* line 81, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+.category {
+  display: flex;
+  margin: 7em 10%;
+  flex-direction: row;
+  justify-content: space-between; }
+  /* line 86, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+  .category .info {
+    width: 60%; }
+    /* line 88, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+    .category .info h2 {
+      font-family: 'Open Sans';
+      font-size: 1.5em;
+      color: #FF5000;
+      margin-bottom: 1em; }
+    /* line 94, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+    .category .info h3 {
+      font-family: 'Open Sans';
+      font-size: 0.9em;
+      color: #4D4D4D;
+      line-height: 24px;
+      margin-bottom: 2em; }
+    /* line 101, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+    .category .info a {
+      text-decoration: none;
+      padding: 1em;
+      font-family: 'Open Sans';
+      font-size: 0.8em;
+      font-weight: 700;
+      color: #FFFFFF;
+      background-color: #FF641D;
+      display: inline-block;
+      border-radius: 2px; }
+
+/* line 114, /Users/Abhishek/Playground/soc18/learn-astropy/style.scss */
+.category:nth-child(even) {
+  flex-flow: row-reverse; }
 
 /*# sourceMappingURL=style.css.map */
