@@ -60,6 +60,26 @@ header {
         font-size: 2em;
         color: #fff;
     }
+    @include placeholder {
+        opacity: 0.5;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        color: $dark;
+    }
+    input[type="text"] {
+        background: #FFFFFF;
+        box-shadow: 0 10px 20px 0 rgba(175, 175, 175, 0.35);
+        border-radius: 2px;
+        padding: 1.5em 2.5em;
+        border: none;
+        margin-top: 4em;
+        width: 25%;
+        @include animation;
+        &:focus {
+            outline: none;
+            transform: scale(1.05);
+        }
+    }
 }
 
 .category {
