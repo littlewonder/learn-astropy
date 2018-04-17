@@ -41,6 +41,7 @@ window.onload = function () {
         e.preventDefault();
         let q = document.getElementById('searchbox').value;
         window.location.href = 'search.html?q=' + q;
+        document.getElementById('searchbox').value = q;
     })
     if (window.location.pathname === '/learn-astropy/search.html') {
         let query = window.location.search;
