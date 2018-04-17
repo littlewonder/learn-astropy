@@ -3,6 +3,7 @@ var requestDocs = function (q) {
     console.log(url);
     fetch(url)
         .then(function (response) {
+            console.log('SUCCESS');
             return response.json();
         })
         .then(function (json) {
@@ -43,6 +44,7 @@ window.onload = function () {
     })
     if (window.location.pathname === '/search.html') {
         let query = window.location.search;
+        console.log(query);
         requestDocs(query);
     }
 }
