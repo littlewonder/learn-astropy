@@ -3,6 +3,7 @@ var requestDocs = function (q) {
     console.log(url);
     fetch(url)
         .then(function (response) {
+            document.getElementById('loader').style.display = 'none';
             console.log('SUCCESS');
             return response.json();
         })
