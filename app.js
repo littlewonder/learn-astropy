@@ -42,7 +42,7 @@ window.onload = function () {
         let q = document.getElementById('searchbox').value;
         window.location.href = 'search.html?q=' + q;
     })
-    if (window.location.pathname === '/search.html') {
+    if (window.location.pathname === '/learn-astropy/search.html') {
         let query = window.location.search;
         console.log(query);
         requestDocs(query);
